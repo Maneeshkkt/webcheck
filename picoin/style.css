@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* withdrwal data base */
+
+.contact-container6{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: url(bgimg.jpg);
+    background-size: cover;
+    
+    
+}
+.contact-left6{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    
+}
+
+.contact-left-title h2{
+    font-weight: 600;
+    color: #5f046b;
+}
+
+.contact-left-title hr{
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color:#5f046b ;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-inputs6{
+    width: 300px;
+    height: 30px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #fdf9f9;
+    border-radius: 2px;
+    background-color: #45fafa;
+}
+
+.contact-left6 textarea{
+    height: 100px;
+    padding-top: 15px;
+    border-radius: 1px;
+    
+}
+
+.contact-inputs6:focus{
+    border: 2px solid #65ebf5;
+}
+.contact-inputs6::placeholder{
+    color: #ffffff;
+    
+}
+
+.contact-left6 button{
+    display: flex;
+    align-items: center;
+    padding: 7px 30px;
+    font-size: 16px;
+    color: #fff;
+    gap: 10px;
+    border-radius: 5px;
+    background: linear-gradient(270deg,#5bfae5 ,black);
+    cursor: pointer;
+     
+}
+.contact-left6 button img{
+    height: 15px;
+}
+
+.contact-right6{
+    color: #cecbcb;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+    
+}
+.contact-right6 a{
+    text-decoration: none;
+    color: rgb(235, 247, 235);
+    font-size: 20px;
+    
+}
+
+
+.widthrawl {
+    margin: 25px;
+    
+    
+}
+
+h4{
+    color: rgb(97, 97, 97);
+}
+
+
+
+.analytiv{
+    height: 400px;
+}
+
+
+.copybooto{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 30px;
+    
+}
+
+
+.link2{
+    color: #5f046b;
+    background-color: rgb(138, 224, 240);
+    font-size: 10px;
+}
+
+.blink {
+    color: rgb(255, 0, 0);
+    animation: blinkAnimation 1s infinite; /* 1-second delay */
+    
+}
+
+@keyframes blinkAnimation {
+    0% { opacity: 1; } /* Fully visible */
+    50% { opacity: 0.3; } /* Fully transparent */
+    100% { opacity: 1; } /* Fully visible */
+}
+
+
+.blink1 {
+    color: rgb(1, 156, 53);
+    animation: blink1Animation 2s infinite; /* 1-second delay */
+    
+}
+
+@keyframes blink1Animation {
+    0% { opacity: 1; } /* Fully visible */
+    50% { opacity: 0; } /* Fully transparent */
+    100% { opacity: 1; } /* Fully visible */
+}
